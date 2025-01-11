@@ -246,5 +246,63 @@ main {
 .Future-insights .sub-discription {
     color: rgba(14, 14, 14, 0.6);
     padding-top: 6px;
+}
 
+/* opinion part */
+
+.opinion .table-container {
+    background-color: #FFFFFF;
+    border-radius: 16px;
+    padding: 32px;
+}
+
+
+
+td {
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    width: 100%;
+}
+
+.opinion th {
+    background-color: #C6E4D6;
+    padding: 24px 0 ;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: start;
+
+}
+
+.opinion .Questions{
+    padding-left: 24px;
+}
+
+.opinion td {
+    padding-left: 24px;
+    padding-right: 24px;
+    font-weight: 600;
+
+}
+
+.opinion .btn {
+    background-color: #C6E4D6;
+    padding: 12px 16px;
+    border: 1px solid #0E0E0E;
+    border-radius: 4px;
+    font-weight: 500;
+    width: 100%;
+    margin: 24px auto;
+    width: 152px;
+    /* position: relative; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+}
+
+
+.opinion .btn i{
+    /* position: absolute;
+    top: 10px;
+    right: 13px; */
+    font-size: 20px;
 }
