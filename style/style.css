@@ -11,6 +11,31 @@ body {
     background-color: #F1F1F3;
 }
 
+/* share style */
+.title {
+    font-size: 20px;
+    font-weight: 700;
+    color: rgba(14, 14, 14, 0.8);
+}
+
+.discription {
+    color: rgb(14, 14, 14, 0.7);
+}
+
+.heading {
+    font-size: 40px;
+    font-weight: 700;
+    color: #0E0E0E;
+    margin-bottom: 32px;
+}
+
+.cards {
+    display: flex;
+    gap: 24px;
+}
+
+
+
 /* nav part */
 nav {
     width: 1280px;
@@ -91,4 +116,28 @@ main {
     color: black;
     transition: 0.5s;
     font-size: 20px;
+}
+
+/* pillars part */
+
+.pillars {
+    margin: 80px auto;
+}
+
+.pillars .card {
+    width: 280px;
+    padding: 24px;
+    /* box-shadow: ; */
+    background-color: #FFFFFF;
+    border-radius: 16px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+}
+
+.pillars .card img {
+    padding: 25px 0;
+}
+
+.pillars .card .discription {
+    padding: 12px 0 24px;
+    width: 254px;
 }
