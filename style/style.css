@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* common style */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Fira Sans", serif;
+}
+
+body {
+    background-color: #F1F1F3;
+}
+
+/* nav part */
+nav {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+nav .nav-container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 31px;
+}
+
+nav .heading{
+    margin-bottom: 0;
+}
+nav .common-btn {
+    padding: 15px 30px;
+    color: #006A50;
+    background-color: transparent;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+nav .common-btn:hover {
+    background-color: #006A50;
+    color: #FFFFFF;
+    transition: .5s;
+}
+
+/* main part */
+main {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+
+/* hero part */
+.hero {
+    display: flex;
+    /* gap: 64px; */
+    justify-content: center;
+    justify-content: space-between;
+    background-color: #C6E4D6;
+    padding: 80px 65px;
+    border-radius: 24px;
+    margin-top: 20px;
+}
+
+.hero .subtitle {
+    font-size: 24px;
+    font-weight: 500;
+    color: rgb(14, 14, 14, 0.5);
+    margin-bottom: 16px;
+}
+
+.hero .hero-title {
+    font-size: 56px;
+    font-weight: 700;
+    color: #0E0E0E;
+    margin-bottom: 24px;
+    width: 615px;
+
+}
+
+.hero button {
+    font-weight: 600;
+    background-color: #006A50;
+    color: #FFFFFF;
+    padding: 17px 34px;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+}
+
+.hero button:hover {
+    background-color: transparent;
+    border: 1px solid #0E0E0E;
+    color: black;
+    transition: 0.5s;
+    font-size: 20px;
+}
