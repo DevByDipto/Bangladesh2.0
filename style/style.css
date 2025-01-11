@@ -306,3 +306,92 @@ td {
     right: 13px; */
     font-size: 20px;
 }
+
+/* news part  */
+
+.news {
+    margin: 80px 0;
+}
+
+.news .discription {
+    margin-bottom: 32px;
+}
+
+.news .cards {
+    flex-direction: column;
+}
+
+.news .card {
+    padding: 48px;
+    display: flex;
+    gap: 32px;
+    align-items: center;
+    background-color: #FFFFFF;
+    border-radius: 24px;
+}
+
+.news .card .topic-img img {
+    border-radius: 24px;
+}
+
+.news .card .title {
+    font-size: 32px;
+    padding-bottom: 12px;
+}
+
+.news .card .chanale-name {
+    padding-bottom: 12px;
+}
+
+.news .card .date {
+    padding-bottom: 12px;
+}
+
+/* donet part */
+
+.donate .heading {
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+.donate .discription {
+    margin-bottom: 32px;
+    text-align: center;
+    width: 1104px;
+}
+
+.donate .cards {
+    justify-content: center;
+}
+
+.donate .card {
+    font-size: 40px;
+    padding: 40px;
+    background-color: #FFFFFF;
+    color: #0E0E0E;
+    border-radius: 16px;
+    margin-bottom: 32px;
+}
+
+.donate .card:hover {
+    background-color: #C6E4D6;
+    transition: .5s;
+}
+
+.donate input[type="text"] {
+    display: block;
+    margin-bottom: 32px;
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    color: rgba(14, 14, 14, 0.3);
+    width: 1030px;
+    border: none;
+    margin: 0 auto 32px;
+}
+
+.donate .common-btn {
+    display: block;
+    margin: 0 auto;
+}
