@@ -395,3 +395,75 @@ td {
     display: block;
     margin: 0 auto;
 }
+
+/* subcribe part */
+.subcribe {
+    margin: 80px 0;
+    padding: 80px 0;
+    background-color: #C6E4D6;
+    border-radius: 24px;
+}
+
+.subcribe .heading {
+    text-align: center;
+}
+
+.subcribe .discription {
+    width: 622px;
+    text-align: center;
+    margin: 0 auto 24px;
+}
+
+.subcribe input[type="text"] {
+    background-color: #FFFFFF;
+    width: 600px;
+    padding: 18px 0 18px 40px;
+    color: rgba(14, 14, 14, 0.3);
+    border: none;
+    border-radius: 10px 0 0 10px;
+    /* margin-bottom: 24px;  */
+    /* amn ta keno hocche */
+
+}
+
+.subcribe .common-btn {
+    padding: 17px 32px;
+    border-radius: 0px 10px 10px 0;
+
+}
+
+.subcribe .information-center {
+    display: flex;
+    gap: 0;
+    margin-bottom: 24px;
+    justify-content: center;
+}
+
+/* footer part */
+footer {
+    background-color: white;
+
+}
+
+.footer-container {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.footer-container .heading {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.footer-container hr {
+    width: 1122px;
+    opacity: 0.2;
+    margin: 0 auto;
+}
+
+.footer-container .fotter-images {
+    padding: 32px 0 50px;
+    display: flex;
+    justify-content: center;
+    gap: 23px;
+}
